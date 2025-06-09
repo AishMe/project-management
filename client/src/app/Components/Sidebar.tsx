@@ -22,7 +22,12 @@ const Sidebar = () => {
             </div>
             {/* TEAM */}
             <div className="flex items-center gap-5 border-y-[1.5px] border-gray-200 px-8 dark:border-gray-700">
-                <Image src="/logo.png" alt="Logo" width={40} height={40} />
+                <Image 
+                className="text-white dark:text-black text-xl font-bold"
+                src="/logo.png" 
+                alt="Logo" 
+                width={40} 
+                height={40} />
                 <div>
                     <h3 className="text-md font-bold tracking-wide dark:text-gray-200">
                         AISHME TEAM
