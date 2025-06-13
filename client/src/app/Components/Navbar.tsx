@@ -18,6 +18,7 @@ const Navbar = () => {
                     <Menu className="h-8 w-8 dark:text-white" />
                 </button>
             )}
+            {/* Dark theme not working */}
             <div className="relative flex h-min w-[200px]">
                 <Search className="absolute left-[4px] top-1/2 mr-2 h-5 w-5 -translate-y-1/2 transform cursor-pointer dark:text-white" />
                 <input 
